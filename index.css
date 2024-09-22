@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif; /* Cambiando a Roboto Slab */
+}
+
+header {
+    background-color: #4CAF50; /* Cambiando a un tono de verde */
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+    color: #fff; /* Texto en blanco */
+    border-bottom: 5px solid #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alineando al centro verticalmente */
+    height: 100vh; /* 100% de la altura de la ventana */
+    background-color: #F0F0F0; /* Cambiando a un tono gris claro */
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Roboto Slab', serif; /* Aplicando el mismo tipo de letra al formulario */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif; /* Aplicando el mismo tipo de letra a las etiquetas */
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif; /* Aplicando el mismo tipo de letra a los inputs */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Roboto Slab', serif; /* Aplicando el mismo tipo de letra a las celdas de la tabla */
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media (min-width: 768px) {
+    main {
+        align-items: unset; /* Reinicia la alineación vertical */
+    }
+
+    button {
+        display: block;
+        width: 100%;
+    }
+
+    #changeSubnet {
+        margin-top: 10px;
+    }
+}
+
+

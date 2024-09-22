@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif; /* Cambiando a Roboto Slab */
+}
+
+header {
+    background-color: #4CAF50; /* Cambiando a un tono oscuro */
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+    color: #fff; /* Texto en blanco */
+    border-bottom: 5px solid #3498db;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alineando al centro verticalmente */
+    height: 100vh; /* 100% de la altura de la ventana */
+    background-color: #ecf0f1; /* Cambiando a un tono gris claro */
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Roboto Slab', serif; /* Aplicando el mismo tipo de letra al formulario */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif; /* Aplicando el mismo tipo de letra a las etiquetas */
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif; /* Aplicando el mismo tipo de letra a los inputs */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Roboto Slab', serif; /* Aplicando el mismo tipo de letra a las celdas de la tabla */
+}
+
+th {
+    background-color: #ddd;
+    color: #fff;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+@media (min-width: 768px) {
+    main {
+        align-items: unset; /* Reinicia la alineación vertical */
+    }
+
+    button {
+        display: block;
+        width: 100%;
+    }
+
+    #changeSubnet {
+        margin-top: 10px;
+    }
+}
+
+#data {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#data p {
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#data span {
+    color: #FF6347; /* Tomate */
+}
+
+#data p,
+#data span {
+    font-size: 1.15em;
+}
+
+#subnetTable {
+    text-align: center;
+    border: 3px solid  #2c3e50;
+    padding: 5px;
+}
+
+#subnetTable th,
+#subnetTable td {
+    background-color: #4CAF50; /* Fondo gris claro */
+    color: #ecf0f1; /* Texto oscuro */
+}
+
+#subnetTable .nameSub,
+#subnetTable .numHosts,
+#subnetTable .prefix {
+    background-color: #4CAF50;
+    color: #ecf0f1; /* Tomate */
+}
+
+#subnetTable .nameSub,
+#subnetTable .numHosts,
+#subnetTable .prefix,
+#subnetTable th {
+    padding: 10px;
+}
+
+#return {
+    margin-top: 50px;
+    text-align: center;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+
+
+

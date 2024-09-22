@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@600&family=Sacramento&family=Sevillana&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1> VLSM </h1>
+    </header>
+
+    <main>
+        <form action="" method="POST" id="changeSubnetForm">
+            <div>
+                <label for="majorNetwork">Red Padre:</label>
+                <input type="text" name="majorNetwork" id="majorNetwork" placeholder="Ingresar red padre"  />
+
+                <label for="prefix">Prefijo de máscara:</label>
+                <input type="text" name="prefix" id="prefix" placeholder="Prefijo de máscara" />
+            </div>
+
+            <div>
+                <label for="subnetTable">Subredes:</label>
+                <table id="subnetTable">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Tamaño host</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="text" name="net_1" class="name" ></td>
+                            <td><input type="text" name="size_1" class="size"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="net_2" class="name" ></td>
+                            <td><input type="text" name="size_2" class="size" ></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="net_3" class="name"  ></td>
+                            <td><input type="text" name="size_3" class="size" ></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="net_4" class="name" ></td>
+                            <td><input type="text" name="size_4" class="size" ></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="net_5" class="name" ></td>
+                            <td><input type="text" name="size_5" class="size" ></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="net_6" class="name" ></td>
+                            <td><input type="text" name="size_6" class="size" ></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="number" name="numSubnet" id="numSubnet" value="6">
+                                <button type="button" id="changeSubnetBtn">Cambiar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div>
+                <button type="reset" id="submit" >Subir</button>
+            </div>
+        </form>
+    </main>
+    <script src="aplicaccion.js"></script>
+</body>
+
+</html>

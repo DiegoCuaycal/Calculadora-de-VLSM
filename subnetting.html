@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="subnetting.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <title>Resultados</title>
+</head>
+
+<body>
+    <header>
+        <h1>Subredes obtenidas</h1>
+    </header>
+
+    <section id="data">
+            <label >Red Principal:</label>
+            <input type="text" id="frmRedPrincipal" readonly>
+            <label >Prefijo:</label>
+            <input type="text" id="frmPrefijo" readonly>
+    </section>
+
+    <main>
+        <table id="subnetTable">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Host Requeridos</th>
+                    <th>Dirección de Subred</th>
+                    <th>Máscara de Subred</th>
+                    <th>Prefijo</th>
+                    <th>Rango asignable</th>
+                    <th>Broadcast</th>
+                </tr>
+            </thead>
+            <tbody id="subnetTableBody">
+                <!-- Table rows will be dynamically added here -->
+            </tbody>
+        </table>
+    </main>
+
+    <section id="return">
+       <a 
+            href="index.html"> 
+            <button>Nuevo cálculo</button>
+        </a>
+    </section>
+    
+    <script src="subnetting.js"></script>
+</body>
+
+</html>
