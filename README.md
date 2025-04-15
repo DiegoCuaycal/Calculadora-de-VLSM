@@ -41,5 +41,4 @@ El proyecto está disponible en línea en la siguiente URL:
 ![image](https://github.com/user-attachments/assets/b00cbd64-2a0b-445e-a878-69922a980c26)
 
 
-## 📁 Estructura del proyecto
 
